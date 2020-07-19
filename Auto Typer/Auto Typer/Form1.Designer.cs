@@ -36,7 +36,7 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.timeBox = new System.Windows.Forms.TextBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.phrasesList = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
             // 
             // timer1
@@ -49,6 +49,7 @@
             this.textBox.Name = "textBox";
             this.textBox.Size = new System.Drawing.Size(298, 23);
             this.textBox.TabIndex = 0;
+            this.textBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_KeyDown);
             // 
             // button1
             // 
@@ -78,6 +79,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Remove";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -87,6 +89,7 @@
             this.button4.TabIndex = 4;
             this.button4.Text = "Add";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // timeBox
             // 
@@ -94,21 +97,23 @@
             this.timeBox.Name = "timeBox";
             this.timeBox.Size = new System.Drawing.Size(298, 23);
             this.timeBox.TabIndex = 0;
+            this.timeBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.timeBox_KeyDown);
             // 
-            // checkedListBox1
+            // phrasesList
             // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(12, 70);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(460, 382);
-            this.checkedListBox1.TabIndex = 5;
+            this.phrasesList.CheckOnClick = true;
+            this.phrasesList.FormattingEnabled = true;
+            this.phrasesList.Location = new System.Drawing.Point(12, 70);
+            this.phrasesList.Name = "phrasesList";
+            this.phrasesList.Size = new System.Drawing.Size(460, 382);
+            this.phrasesList.TabIndex = 5;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(484, 461);
-            this.Controls.Add(this.checkedListBox1);
+            this.Controls.Add(this.phrasesList);
             this.Controls.Add(this.timeBox);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -132,7 +137,7 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox timeBox;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.CheckedListBox phrasesList;
     }
 }
 

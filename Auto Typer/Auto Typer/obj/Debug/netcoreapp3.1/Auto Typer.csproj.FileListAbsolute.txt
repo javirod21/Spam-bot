@@ -1,0 +1,15 @@
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\bin\Debug\netcoreapp3.1\Auto Typer.exe
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\bin\Debug\netcoreapp3.1\Auto Typer.deps.json
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\bin\Debug\netcoreapp3.1\Auto Typer.runtimeconfig.json
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\bin\Debug\netcoreapp3.1\Auto Typer.runtimeconfig.dev.json
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\bin\Debug\netcoreapp3.1\Auto Typer.dll
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\bin\Debug\netcoreapp3.1\Auto Typer.pdb
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.csprojAssemblyReference.cache
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto_Typer.Form1.resources
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.csproj.GenerateResource.cache
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.AssemblyInfo.cs
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.dll
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.pdb
+C:\Users\Javier\source\repos\Auto Typer\Auto Typer\obj\Debug\netcoreapp3.1\Auto Typer.genruntimeconfig.cache
